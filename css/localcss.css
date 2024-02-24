@@ -1,0 +1,53 @@
+
+/*importing google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+
+/*General margin styling */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+/* Try adding some box shadow */
+main img {
+  width: 100%;
+  height: auto;
+  display: flex;
+  border-radius: 25px;
+}
+
+/*Styling hover of navigation options*/
+h1 span:hover{
+    background-size: 100% 100%;
+    background-position: 0% 100%;
+    transition: background-position .7s, background-size .5s ease-in-out;
+}
+
+
+/*Styling mobile view*/
+@media screen and (min-width: 469px) {
+    main{
+        font-size: 1.2em;
+    }
+}
+
+/*Styling laptop view*/
+@media screen and (min-width: 769px) {
+    main {
+        font-size: 1.5em;
+    }
+    h2{
+        margin: 10px 0;
+        font-size: 2rem;
+    }
+    section{
+        padding-top: 15px;
+        padding-bottom: 30px;
+    };
+    
+}
+
+
